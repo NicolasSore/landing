@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500);
+
+body {
+    font-family: 'Roboto' ;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.h1, .h2 {
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+a {
+    color: cyan;
+
+}
+
+a:hover {
+    color: darkslategrey;
+}
+
+body {
+    font-family: 'Roboto';
+    margin: 0 auto;
+    padding: 0;
+    font-size: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.h1 {
+    text-align: bottom;
+    margin: 0px;
+    width: 1410px;
+    height: 200px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-block: 0px;
+    background-position: top;
+    top: 0px;
+    position: relative;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    font-size: 30px;
+}
+
+.our-offer {
+    background-color: darkslateblue;
+    height: 150px;
+}
+
+
+.banner {
+    background-image: linear-gradient(-225deg, rgba(250,250,250,0.8) -10%, rgba(0.1,0,195,0.3) 35%), url("images/demice.jpg");
+    background-size: cover;
+    background-position: center;    
+    color: white;
+    padding: 50px 0px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+.banniere {
+    background-image: linear-gradient(-265deg, rgba(250,250,250,0.4) 0%, rgba(0.1,0,195,0.3) 10%), url("images/dmcer.jpg");
+    background-size: cover;
+    position: relative;
+    top: -40px;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 400px;
+    text-align: center ;
+    margin: 0px;
+    height: 600px;
+    text-decoration-color: lightslategrey;
+    color: whitesmoke;
+}
+
+
+.bouton {
+    background-color: #091540;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+}
+
+
+.centre {
+    text-align: center;
+}
+
+.h2{
+    text-align: center;
+}
+
+.price-box {
+    font-family:'Roboto';
+    margin: 10px;
+    padding: 0 auto;
+    border-radius: 10px;
+    margin: 0px -30px;
+    border: 4px solid whitesmoke;
+    align-items: center;
+    text-align: center;
+    background-color: lightslategrey;
+    width: 1462px;
+    text-size-adjust: auto;
+    text-emphasis: steelblue;
+    position: absolute;
+    bottom: -45px;
+}
+
+.container1 {
+  font-family:'Roboto';
+  width: 1410px;
+  margin: 0 auto;
+}
+
+.our-social-networks {
+  text-align: -10px center;
+  font-size: 22px;  
+  background-color: lightgrey;
+  font-family: 'Roboto';
+  width: 700px;
+  margin: 0 380px -40px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 190px;
+  letter-spacing: 6px;
+  word-spacing: 15px;
+}
+
+@media (max-width: 960px) {
+  .container1 .price-box .our-social-networks .footer {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container1 .price-box .our-social-networks .footer {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container1 .price-box .our-social-networks .footer {
+    width: 300px;
+  }
+}
+
+
